@@ -1,6 +1,10 @@
-# Dependency directories
+# Dependency directories.
 node_modules/
 .vscode
 
+# Ignore built js and maps, leaving just the TypeScript.
 src/*.js
 src/*.js.map
+
+# Except main.js, which had to be sacrified to 2009 modules to get it to work in Electron.
+!src/main.js
