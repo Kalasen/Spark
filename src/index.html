@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Spark</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <script>let exports = {"__esModule": true};</script>
+    <script type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Spark</h1>
+    </header>
+    <main>
+      <canvas id="gameCanvas" width="600" height="400"></canvas>
+      <button onclick="onClickClear()">Clear</button>
+    </main>
+  </body>
+</html>
