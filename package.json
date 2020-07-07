@@ -6,7 +6,7 @@
     "start": "electron ."
   },
   "devDependencies": {
-    "electron": "^7.1.0"
+    "electron": "^7.2.4"
   },
   "description": "Electron experimentat",
   "dependencies": {},
